@@ -17,7 +17,8 @@ public class ClassPrint {
         print_value(result);
     }
     public static void print_delenie(String slovo1, int slovo2) {
-        String result = slovo1.substring(0, slovo2);
+        int slovoOst = (slovo1.length() / slovo2);
+        String result = slovo1.substring(0, slovoOst);
         print_value(result);
     }
         public static void print_value(String value) {
